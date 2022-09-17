@@ -37,9 +37,19 @@
   left: -5px;
 }
 
+.goods__arrow_prev:hover {
+  box-shadow: 0 0 8px #89898b;
+  transition: box-shadow 0.6s ease-in-out;
+}
+
 .goods__arrow_next {
   right: -5px;
   transform: rotate(180deg);
+}
+
+.goods__arrow_next:hover {
+  box-shadow: 0 0 8px #89898b;
+  transition: box-shadow 0.6s ease-in-out;
 }
 
 @media (min-width: 768px) {

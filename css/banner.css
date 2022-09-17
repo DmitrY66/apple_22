@@ -35,6 +35,12 @@
   line-height: 100%;
 }
 
+.banner__button:hover {
+  color: #fff;
+  background-color: #2238FF;
+  transition: background-color .6s ease-in-out, color .6s ease-in-out;
+}
+
 @media (min-width: 768px) {
   .banner {
     padding: 60px 0 90px;
